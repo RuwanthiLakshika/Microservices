@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order (1) (org.abccompany)" />
+        <module name="product (2) (com.product)" />
+        <module name="inventory (2) (com.inventory)" />
+        <module name="product (1) (org.abccompany)" />
+        <module name="order (2) (com.order)" />
+        <module name="inventory (1) (org.abccompany)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="inventory" target="17" />
+      <module name="order" target="17" />
+      <module name="product" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="inventory" options="-parameters" />
+      <module name="inventory (1) (org.abccompany)" options="-parameters" />
+      <module name="inventory (2) (com.inventory)" options="-parameters" />
+      <module name="order" options="-parameters" />
+      <module name="order (1) (org.abccompany)" options="-parameters" />
+      <module name="order (2) (com.order)" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="product (1) (org.abccompany)" options="-parameters" />
+      <module name="product (2) (com.product)" options="-parameters" />
+    </option>
+  </component>
+</project>
